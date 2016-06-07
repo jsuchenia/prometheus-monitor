@@ -1,0 +1,11 @@
+div.pm-options {
+    width: 400px;
+    max-height: 800px;
+}
+div.pm-popup {
+    width: 800px;
+    max-height: 800px;
+}
+table.pm-table {
+    width: 100%;
+}

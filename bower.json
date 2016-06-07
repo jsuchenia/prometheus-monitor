@@ -1,0 +1,22 @@
+{
+  "name": "prometheus-monitor-extension",
+  "authors": [
+    "Jacek Suchenia <jacek.suchenia@ocado.com>"
+  ],
+  "description": "Prometheus Monitor Chrome extension",
+  "main": "",
+  "license": "Internal",
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "hexagon-js": "^1.3.2",
+    "components-font-awesome": "^4.6.0"
+  }
+}

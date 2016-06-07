@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Prometheus montor</title>
+    <link rel="stylesheet" type="text/css" href="../bower_components/hexagon-js/dist/hexagon-light/hexagon.css"/>
+</head>
+<body>
+<div class="hx-layout hx-group hx-vertical pm-popup">
+    <div class="hx-section hx-header-large">
+        All alerts
+    </div>
+    <div class="hx-section hx-full-width">
+        <table id="hostTable" class="hx-table pm-table">
+            <thead>
+            <tr>
+                <th>Host</th>
+                <th>Pending alerts</th>
+                <th>Firing alerts</th>
+            </tr>
+            </thead>
+            <tbody>
+            </tbody>
+        </table>
+    </div>
+</div>
+
+<script src="../bower_components/hexagon-js/dist/hexagon-light/hexagon.js"></script>
+<script src="../js/popup.js"></script>
+</body>
+</html>
