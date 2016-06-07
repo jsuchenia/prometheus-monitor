@@ -3,7 +3,7 @@
   "name": "Prometheus monitor",
   "short_name": "Prometheus monitor",
   "description": "This extension gives you information how many alerts are active on each prometheus instance",
-  "version": "0.1",
+  "version": "0.2",
   "icons": {
     "16": "images/ico16.png",
     "48": "images/ico48.png",

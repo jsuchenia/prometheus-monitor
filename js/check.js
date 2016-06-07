@@ -6,9 +6,11 @@ function checkUrl(url, callback) {
             var title = response.querySelector('title').textContent;
             var alerts = response.querySelectorAll('tr.alert_header');
             if (title === 'Prometheus Time Series Collection and Processing Server' && alerts.length > 0) {
-                var success = response.querySelectorAll('tr.success')
+                var success = response.querySelectorAll('tr.success');
                 var firing = response.querySelectorAll('tr.danger');
-                callback({url: url, all: alerts.length, firing: firing.length, pending: 0});
+                var pending = response.querySelectorAll('tr.warning');
+
+                callback({url: url, all: alerts.length, firing: firing.length, pending: pending.length});
             } else {
                 callback(undefined);
             }
