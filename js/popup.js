@@ -1,4 +1,4 @@
-chrome.runtime.sendMessage({action: 'getList'}, function(response) {
+chrome.storage.sync.get(null, function(response) {
     var tbody = hx.select('tbody');
     tbody.clear()
 
